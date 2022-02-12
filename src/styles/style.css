@@ -58,12 +58,19 @@ h3 {
   font-size: 34px;
 }
 
-main {
+main,
+header,
+footer {
 
   width: 1110px;
   align-items: center;
   top: 100px;
   bottom: 100px;
+}
+
+.maincolor {
+
+  color: var(--main);
 }
 
 header::before {
