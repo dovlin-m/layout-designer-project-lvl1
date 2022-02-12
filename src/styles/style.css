@@ -14,22 +14,22 @@
 
 @font-face {
   font-family: 'Neucha';
-  src: url('../media/assets/fonts/Neucha/Neucha-Regular.ttf');
+  src: url('../media/Fonts/Neucha/Neucha-Regular.ttf');
 }
 
 @font-face {
-  font-family: 'Open-Sans';
-  src: url('../media/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf');
+  font-family: 'OpenSans-Bold';
+  src: url('../media/Fonts/OpenSans/OpenSans-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'Open-Sans';
-  src: url('../media/assets/fonts/Open_Sans/OpenSans-italic-VariableFont_wdth,wght.ttf');
+  font-family: 'OpenSans-Regular';
+  src: url('../media/Fonts/OpenSans/OpenSans-Regular.ttf');
 }
 
 body {
 
-  font-family: 'Open-Sans';
+  font-family: 'OpenSans-Regular';
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
@@ -68,62 +68,77 @@ footer {
   bottom: 100px;
 }
 
-.maincolor {
+body {
+  position: relative;
+}
+
+.background::before {
+
+  position: absolute;
+  content: url(../media/Picture/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.heading {
+  
+ 
+  position: absolute;
+  top: 100px;
+  width: max-content;
+  z-index: 1;
+
+  left: 165px;
+  right: 137px;
+  
+}
+
+.color-main {
 
   color: var(--main);
 }
 
-.top {
+.color-dark {
 
-  margin-top: 100px;
+  color: var(--dark);
 }
 
-.dark {
-
-  color:var(--dark) ;
-}
-
-header {
-  
-  position: relative;
-  display: inline-block;
-  background-image: url(/root/layout-designer-project-lvl1/media/images/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 90%;
-}
-
-.picture-header {
-
-  position: relative;
-}
-
-.heading {
-
-  position: absolute;
-}
-
-.position {
+.heading-picture {
 
   position: absolute;
   height: 525px;
   left: 461px;
   top: 55px;
+  z-index: 2;
 }
 
-text {
+.flex-inline {
+
+  display: flex;
+  align-items: flex-end;
+
 
   position: absolute;
-  display: flex;
-  align-content: center;
+
+  top: 539px;
+  left: 165px;
+  right: 165px;
 }
 
-.text-left {
-
-  flex: 1;
+.flex-inline div {
+  
+  align-items: flex-end;
+  top: 539px;
+  width: 540px;
+  margin-right: 30px;
 }
 
-.text-rigth {
-
-  flex: 1;
+button {
+  
+  position: absolute;
+  padding: 12px 24px 12px 24px ;
+  font-weight: bold;
 }
