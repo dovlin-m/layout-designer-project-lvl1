@@ -73,19 +73,37 @@ footer {
   color: var(--main);
 }
 
-header::before {
+.top {
 
-  background-image: url(../media/images/background.png);
+  margin-top: 100px;
+}
+
+.dark {
+
+  color:var(--dark) ;
 }
 
 header {
-
+  
+  position: relative;
+  display: inline-block;
+  background-image: url(/root/layout-designer-project-lvl1/media/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 90%;
 }
 
-div~img {
+.picture-header {
+
+  position: relative;
+}
+
+.heading {
+
+  position: absolute;
+}
+
+.position {
 
   position: absolute;
   height: 525px;
@@ -93,16 +111,19 @@ div~img {
   top: 55px;
 }
 
-p {
+text {
 
   position: absolute;
   display: flex;
-  align-items: flex-end;
-  left: 30px;
+  align-content: center;
 }
 
-.hello {
-  display: block;
+.text-left {
 
-  color: #fff;
+  flex: 1;
+}
+
+.text-rigth {
+
+  flex: 1;
 }
