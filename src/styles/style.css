@@ -58,14 +58,13 @@ h3 {
   font-size: 34px;
 }
 
-main,
-header,
-footer {
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  width: 1110px;
-  align-items: center;
-  top: 100px;
-  bottom: 100px;
+header {
+  display: block;
 }
 
 body {
@@ -75,25 +74,35 @@ body {
 .background::before {
 
   position: absolute;
-  content: url(../media/Picture/background.png);
+  width: 100%;
+  height: 100%;
+  background: url(../media/Picture/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
-  width: 100vw;
-  height: 100vh;
+  content: "";
+}
+.background {
+
+  position: relative;
+  overflow: hidden;
 }
 
-.heading {
-  
- 
-  position: absolute;
-  top: 100px;
-  width: max-content;
-  z-index: 1;
+.container {
 
-  left: 165px;
-  right: 137px;
-  
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1110px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.z-index-2 {
+
+  z-index: 2;
 }
 
 .color-main {
@@ -101,44 +110,51 @@ body {
   color: var(--main);
 }
 
-.color-dark {
-
-  color: var(--dark);
-}
-
 .heading-picture {
 
   position: absolute;
+  top: 35px;
+  right: -270px;
   height: 525px;
-  left: 461px;
-  top: 55px;
-  z-index: 2;
 }
 
-.flex-inline {
+.z-index-1 {
 
-  display: flex;
-  align-items: flex-end;
-
-
-  position: absolute;
-
-  top: 539px;
-  left: 165px;
-  right: 165px;
+  z-index: 1;
 }
 
-.flex-inline div {
-  
-  align-items: flex-end;
-  top: 539px;
-  width: 540px;
-  margin-right: 30px;
+.half-block {
+
+  flex-grow: 1;
+  width: calc(50% - 20px);
 }
 
-button {
-  
-  position: absolute;
-  padding: 12px 24px 12px 24px ;
-  font-weight: bold;
+.margin-right-40 {
+
+  margin-right: 40px;
+}
+
+.margin-top-190 {
+
+  margin-top: 190px;
+}
+
+.header-button {
+  width: 110px;
+  height: 25px;
+  margin-top: 35px;
+  padding: 12px 24px 12px 24px;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.background-main {
+
+  background: var(--main);
+}
+
+.font-white {
+
+  color: var(--white);
 }
