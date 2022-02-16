@@ -5,7 +5,7 @@
   --translucentWhite: #d7ccc0;
   --ligth: #f5f4f0;
   --main: #fe8a02;
-  --mainDark: #42413c;
+  --primaryDark: #42413c;
   --dark: #2a2626;
   --translucentDark: #908d8b;
   --brown: #b09a81;
@@ -88,7 +88,7 @@ body {
   overflow: hidden;
 }
 
-.background-ligth {
+.background-light {
 
   background: var(--ligth);
 }
@@ -189,3 +189,115 @@ body {
 
   margin-top: 100px;
 }
+
+.margin-top {
+
+  margin-top: -100px;
+}
+
+.background-primary-dark {
+
+  background-color: var(--primaryDark);
+}
+
+.text-aling-left {
+
+  text-align: left;
+}
+
+.padding-top-100 {
+
+  padding-top: 100px;
+}
+
+.box {
+  display: flex;
+  margin: 0 -5px;
+  margin-left: -20px;
+}
+.block {
+  flex: 1 1 auto;
+  margin: 0 5px;
+  padding: 24px;
+}
+
+.box {
+  margin-bottom: 30px;
+
+}
+.block {
+
+  width: 302px;
+  background: var(--white);
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.block-header {
+
+  flex: 1 1 auto;
+  margin: 0 5px;
+  width: 350px;
+  height: 325px;
+  margin-left: 20px;
+}
+
+.font-size-52 {
+
+  font-size: 52px;
+}
+
+.color-white {
+
+  color: var(--white);
+}
+
+.margin-top-40 {
+  
+  margin-top: 40px;
+}
+
+.margin-top-15 {
+
+  margin-top: 15px;
+}
+
+.color-dark {
+
+  color: var(--dark);
+}
+
+.number {
+
+  font-size: 64px;
+  font-family: 'Neucha';
+  line-height: 1;
+  margin-bottom: 40px;
+  color: var(--primaryDark);
+}
+
+.text-decoration {
+
+  text-decoration: none;
+}
+
+.animation:hover {
+  color: var(--white);
+
+  background: var(--main);
+}
+
+.animation:hover span {
+  color: var(--white);
+}
+
+.animation:hover .hover {
+  color: var(--white);
+}
+
+.animation:hover .number {
+  color: var(--white);
+}
+
+
+
