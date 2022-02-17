@@ -440,7 +440,9 @@ body {
   margin-top: auto;
   margin-bottom: auto;
 
-  font-size: 36px;
+  font-weight: n;
+
+  font-size: 34px;
 }
 
 .mail-block {
@@ -448,12 +450,20 @@ body {
   right: 80px;
 }
 
+form {
+
+  width: 423px;
+  height: 50px;
+  margin-left: 50px;
+}
+
 .mail-input-field {
   width: 360px;
   height: 20px;
   padding: 15px;
 
-  font-size: 17px;
+  font-size: 13px;
+  margin-right: 50px;
 }
 
 .footer-button {
@@ -480,7 +490,8 @@ body {
 
 .footer-email-title {
   margin-bottom: 8px;
-  font-weight: 700;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .footer-text {
@@ -489,6 +500,7 @@ body {
   line-height: 2.5em;
   text-align: center;
 }
+
 
 .padding-top-0 {
 
