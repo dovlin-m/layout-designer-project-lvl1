@@ -184,7 +184,7 @@ body {
 
 .margin-vertical {
 
-  margin-top: 27px;
+  margin-top: 25px;
   margin-bottom: 30px;
 }
 
@@ -195,7 +195,7 @@ body {
 
 .margin-top {
 
-  margin-top: -100px;
+  margin-top: -116px;
 }
 
 .background-primary-dark {
@@ -347,7 +347,7 @@ body {
 
 .h3-section {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "OpenSans";
   line-height: 1.6em;
 }
