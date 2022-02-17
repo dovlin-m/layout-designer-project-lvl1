@@ -358,3 +358,23 @@ body {
 
   background: var(--brown);
 }
+
+.background-white {
+
+  background: var(--white);
+}
+
+.margin-left-30 {
+
+  margin-left: 30px;
+}
+
+.color-brown {
+
+  color: var(--brown);
+}
+
+.color-translucentWhite {
+
+  color: var(--translucentWhite);
+}
