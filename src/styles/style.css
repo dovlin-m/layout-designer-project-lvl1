@@ -306,8 +306,25 @@ body {
 
 .section-img {
 
-  width: calc(50% - 20px);
+  width: 578px;
   filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 16px 32px);
+
+  position: absolute;
+}
+
+.right-img {
+
+  position: absolute;
+
+  margin-left: 532px;
+
+  width: 578px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 16px 32px);
+}
+
+.margin-left-608 {
+
+  margin-left: 608px;
 }
 
 .h4 {
@@ -345,6 +362,31 @@ body {
   padding-left: 12px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.margin-top-283 {
+
+  margin-top: 283px;
+}
+
+.margin-top-208 {
+
+  margin-top: 208px;
+}
+
+.margin-top-239 {
+
+  margin-top: 239px;
+}
+
+.margin-top-167 {
+
+  margin-top: 167px;
+}
+
+.margin-top-321 {
+
+  margin-top: 321px;
 }
 
 .h3-section {
