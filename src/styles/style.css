@@ -299,5 +299,62 @@ body {
   color: var(--white);
 }
 
+.section-img {
 
+  width: calc(50% - 20px);
+  filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 16px 32px);
+}
 
+.h4 {
+
+  font-weight: normal;
+  font-size: 24px;
+  font-family: 'Neucha';
+  line-height: 1.2em;
+  color: var(--translucentDark);
+}
+
+.color-translucentDark {
+
+  color: var(--translucentDark);
+}
+
+.h3 {
+
+  font-weight: normal;
+  font-size: 34px;
+  font-family: 'Neucha';
+  line-height: 1.2em;
+}
+
+.margin-top-30 {
+
+  margin-top: 30px;
+}
+
+.section-line {
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.h3-section {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "OpenSans";
+  line-height: 1.6em;
+}
+
+.margin-top-20 {
+
+  margin-top: 20px;
+}
+
+.background-brown {
+
+  background: var(--brown);
+}
