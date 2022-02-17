@@ -210,37 +210,35 @@ body {
 .padding-top-100 {
 
   padding-top: 100px;
+  padding-bottom: -20px;
 }
 
 .box {
   display: flex;
   margin: 0 -5px;
-  margin-left: -20px;
+  margin-left: -30px;
 }
 .block {
   flex: 1 1 auto;
-  margin: 0 5px;
+  margin: 0 3px;
   padding: 24px;
 }
 
 .box {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
 }
 .block {
 
   width: 302px;
   background: var(--white);
-  margin-left: 20px;
+  margin-left: 30px;
   cursor: pointer;
 }
 
 .block-header {
 
   flex: 1 1 auto;
-  margin: 0 5px;
-  width: 350px;
-  height: 325px;
   margin-left: 20px;
 }
 
@@ -267,6 +265,12 @@ body {
 .color-dark {
 
   color: var(--dark);
+}
+
+.text-nav {
+
+  width: 350px;
+  margin-left: 12px;
 }
 
 .number {
