@@ -154,6 +154,7 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
 .background-main {
 
   background: var(--main);
@@ -377,4 +378,78 @@ body {
 .color-translucentWhite {
 
   color: var(--translucentWhite);
+}
+
+.footer-dark-block {
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 100%;
+
+  padding: 50px;
+}
+
+.footer-title {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  font-size: 36px;
+}
+
+.mail-block {
+  position: relative;
+  right: 80px;
+}
+
+.mail-input-field {
+  width: 360px;
+  height: 20px;
+  padding: 15px;
+
+  font-size: 17px;
+}
+
+.footer-button {
+  position: absolute;
+  top: 34px;
+  left: 394px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70px;
+  height: 54px;
+}
+
+.footer-button::before {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  background: url(../media/Picture/send.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: "";
+}
+
+.footer-email-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.footer-text {
+  width: 100%;
+  margin-top: 60px;
+  line-height: 2.5em;
+  text-align: center;
+}
+
+.padding-top-0 {
+
+  padding-top: 0;
+}
+
+.font-size-13 {
+
+  font-size: 13px;
 }
