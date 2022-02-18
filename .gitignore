@@ -3,6 +3,5 @@
 .htmlhintrc
 .stylelintrc
 .surgeignore
-Makefile
 package-lock.json
 package.json
