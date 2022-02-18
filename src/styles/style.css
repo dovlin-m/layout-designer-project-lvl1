@@ -437,10 +437,9 @@ body {
 }
 
 .footer-title {
-  margin-top: auto;
-  margin-bottom: auto;
-
-  font-weight: n;
+  position: absolute;
+  left: calc(50% - 393px/2 - 303.5px);
+  top: 155px;
 
   font-size: 34px;
 }
@@ -448,36 +447,36 @@ body {
 .mail-block {
   position: relative;
   right: 40px;
-}
 
-form {
-
-  width: 423px;
+  margin-left: 570px;
 }
 
 .mail-input-field {
-  width: 360px;
+  width: 393px;
   height: 20px;
   padding: 15px;
 
   font-size: 13px;
   margin-right: 50px;
+
+  border: 0;
 }
 
 .footer-button {
   position: absolute;
   top: 34px;
-  left: 394px;
+  left: 415px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 70px;
-  height: 54px;
+  height: 50px;
+  border: 0;
 }
 
 .footer-button::before {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin: 0 auto;
   background: url(../media/Picture/send.svg);
   background-repeat: no-repeat;
@@ -487,7 +486,7 @@ form {
 }
 
 .footer-email-title {
-  margin-bottom: 8px;
+  margin-bottom: 9px;
   font-weight: normal;
   font-size: 18px;
 }
@@ -497,6 +496,7 @@ form {
   margin-top: 60px;
   line-height: 2.5em;
   text-align: center;
+  font-size: 14px;
 }
 
 
