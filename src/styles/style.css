@@ -433,7 +433,7 @@ body {
 
   width: 100%;
 
-  padding: 50px;
+  padding: 40.5px;
 }
 
 .footer-title {
@@ -447,14 +447,12 @@ body {
 
 .mail-block {
   position: relative;
-  right: 80px;
+  right: 40px;
 }
 
 form {
 
   width: 423px;
-  height: 50px;
-  margin-left: 50px;
 }
 
 .mail-input-field {
