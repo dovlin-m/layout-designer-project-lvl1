@@ -2,3 +2,7 @@
 Makefile
 package-lock.json
 package.json
+*.log
+.DS_Store
+/.vscode/
+/test_images/

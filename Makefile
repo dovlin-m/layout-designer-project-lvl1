@@ -1,9 +1,9 @@
 install:
 	npm install
+	npm install --save-dev stylelint stylelint-order stylelint-config-rational-order
 
 lint:
 	npx stylelint ./src/styles/*.css
-	npx stylelint ./src/styles/**/*.scss
 	npx htmlhint ./src/*.html
 
 deploy:

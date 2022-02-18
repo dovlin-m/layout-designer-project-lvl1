@@ -1,22 +1,18 @@
 {
-  "name": "html5-css-boilerplate",
+  "name": "html5-css-abra19",
   "version": "0.1.0",
-  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
-  },
+  "description": "HTML5/CSS Abra19 with HTMLHint and StyleLint",
   "main": "",
   "devDependencies": {
-    "htmlhint": "^1.1.0",
-    "stylelint": "^14.2.0",
+    "htmlhint": "^0.14.2",
+    "stylelint": "^14.3.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^24.0.0",
     "stylelint-config-standard-scss": "^3.0.0",
     "stylelint-order": "^5.0.0",
     "stylelint-scss": "^4.1.0",
-    "surge": "^0.23.1"
+    "surge": "^0.21.7"
   },
-  "author": "Nikita Mikhaylov",
+  "author": "Elena Abrarova",
   "license": "ISC"
 }
