@@ -426,86 +426,103 @@ body {
   color: var(--translucentWhite);
 }
 
-.footer-dark-block {
-  display: flex;
-
-  justify-content: space-between;
-
-  width: 100%;
-
-  padding: 40.5px;
-}
-
-.footer-title {
-  position: absolute;
-  left: calc(50% - 393px/2 - 303.5px);
-  top: 155px;
-
-  font-size: 34px;
-}
-
-.mail-block {
-  position: relative;
-  right: 40px;
-
-  margin-left: 570px;
-}
-
-.mail-input-field {
-  width: 393px;
-  height: 20px;
-  padding: 15px;
-
-  font-size: 13px;
-  margin-right: 50px;
-
-  border: 0;
-}
-
-.footer-button {
-  position: absolute;
-  top: 34px;
-  left: 415px;
+.footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 100px 165px 111px 165px ;
+}
+
+
+.footer-box {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  max-width: 1110px;
+  box-sizing: border-box;
+  background-color: #42413C;
+  padding: 38px 55px 40px 55px;
+  margin-bottom: 76px;
+  color: var(--white);
+}
+
+.footer-box-text {
+  flex: 1;
+  margin-top: 17px;
+  margin-bottom: 15px;
+  font-family: 'Neucha', sans-serif;
+  font-size: 34px;
+  line-height: 120%;
+}
+
+.newsletter-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.e-mail {
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+
+.newsletter-block form {
+  display: flex;
+  width: 100%;
+}
+
+
+input[type=email] {
+  flex: 1;
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+input[type=email]::placeholder {
+  padding-left: 15px;
+  color: var(--translucentwhite);
+}
+
+.submit {
+  position: relative;
   width: 70px;
   height: 50px;
-  border: 0;
+  background-color: var(--main);
 }
 
-.footer-button::before {
-  width: 20px;
-  height: 20px;
-  margin: 0 auto;
-  background: url(../media/Picture/send.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  content: "";
+.submit:before {
+  content: '';
+  position: absolute;
+  background: url('../images/send.svg') no-repeat center center;
+  width: 70px;
+  height: 50px;
+  top: 0;
+  left: 0;
 }
 
-.footer-email-title {
-  margin-bottom: 9px;
-  font-weight: normal;
-  font-size: 18px;
+.submit:hover {
+  background-color: #ea7600;
 }
 
-.footer-text {
-  width: 100%;
-  margin-top: 60px;
-  line-height: 2.5em;
-  text-align: center;
-  font-size: 14px;
+.source {
+  margin: 16px 0;
 }
 
-
-.padding-top-0 {
-
-  padding-top: 0;
+.source a {
+  color: var(--blue);
 }
 
-.font-size-13 {
+.agreement {
+  font-size: 12px;
+}
 
-  font-size: 13px;
+.agreement a {
+  color: var(--white);
+}
+.to-courses a {
+  color: var(--blue);
 }
