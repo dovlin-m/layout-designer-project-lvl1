@@ -497,7 +497,7 @@ input[type=email]::placeholder {
 .submit:before {
   content: '';
   position: absolute;
-  background: url('../images/send.svg') no-repeat center center;
+  background: url('../media/Picture/send.svg') no-repeat center center;
   width: 70px;
   height: 50px;
   top: 0;

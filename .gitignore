@@ -1,1 +1,8 @@
 /node_modules/
+.editorconfig
+.htmlhintrc
+.stylelintrc
+.surgeignore
+Makefile
+package-lock.json
+package.json
