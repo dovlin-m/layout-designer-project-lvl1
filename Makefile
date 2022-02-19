@@ -8,3 +8,4 @@ lint:
 
 deploy:
 	npx surge ./src/
+	
