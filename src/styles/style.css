@@ -1,6 +1,5 @@
 /** CSS STYLE **/
 :root {
-
   --white: #fff;
   --translucentWhite: #d7ccc0;
   --ligth: #f5f4f0;
@@ -11,6 +10,7 @@
   --brown: #b09a81;
   --blue: #1085c5;
 }
+
 
 @font-face {
   font-family: 'Neucha';
@@ -28,8 +28,9 @@
 }
 
 body {
+  position: relative;
 
-  font-family: 'OpenSans-Regular';
+  font-family: 'OpenSans-Regular', sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
@@ -40,7 +41,7 @@ h2,
 h3 {
 
   line-height: 1.2em;
-  font-family: 'Neucha';
+  font-family: 'Neucha', sans-serif;
   font-weight: 400;
 }
 
@@ -68,10 +69,6 @@ header {
   display: block;
 }
 
-body {
-  position: relative;
-}
-
 .background::before {
 
   position: absolute;
@@ -83,6 +80,7 @@ body {
   opacity: 10%;
   content: "";
 }
+
 .background {
 
   position: relative;
@@ -217,18 +215,12 @@ body {
   display: flex;
   margin: 0 -5px;
   margin-left: -30px;
+  margin-bottom: 20px;
 }
+
 .block {
   flex: 1 1 auto;
   padding: 24px;
-}
-
-.box {
-  margin-bottom: 20px;
-
-}
-.block {
-
   width: 302px;
   background: var(--ligth);
   margin-left: 30px;
@@ -258,7 +250,7 @@ body {
 }
 
 .margin-top-40 {
-  
+
   margin-top: 40px;
 }
 
@@ -275,7 +267,7 @@ body {
 .number {
 
   font-size: 64px;
-  font-family: 'Neucha';
+  font-family: 'Neucha', sans-serif;
   line-height: 1;
   margin-bottom: 40px;
   color: var(--primaryDark);
@@ -331,7 +323,7 @@ body {
 
   font-weight: normal;
   font-size: 24px;
-  font-family: 'Neucha';
+  font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
   color: var(--translucentDark);
 }
@@ -345,7 +337,7 @@ body {
 
   font-weight: normal;
   font-size: 34px;
-  font-family: 'Neucha';
+  font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
 }
 
@@ -392,7 +384,7 @@ body {
 .h3-section {
   font-weight: 700;
   font-size: 14px;
-  font-family: "OpenSans";
+  font-family: "OpenSans", sans-serif;
   line-height: 1.6em;
 }
 
@@ -404,11 +396,6 @@ body {
 .background-brown {
 
   background: var(--brown);
-}
-
-.background-white {
-
-  background: var(--white);
 }
 
 .margin-left-30 {
@@ -431,9 +418,8 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: 14px;
-  padding: 100px 165px 111px 165px ;
+  padding: 100px 165px 111px 165px;
 }
-
 
 .footer-box {
   display: flex;
@@ -441,7 +427,7 @@ body {
   width: 100%;
   max-width: 1110px;
   box-sizing: border-box;
-  background-color: #42413C;
+  background-color: #42413c;
   padding: 38px 55px 40px 55px;
   margin-bottom: 76px;
   color: var(--white);
@@ -473,7 +459,6 @@ body {
   width: 100%;
 }
 
-
 input[type=email] {
   flex: 1;
   height: 50px;
@@ -494,7 +479,7 @@ input[type=email]::placeholder {
   background-color: var(--main);
 }
 
-.submit:before {
+.submit::before {
   content: '';
   position: absolute;
   background: url('../assets/img/send.svg') no-repeat center center;
@@ -521,8 +506,10 @@ input[type=email]::placeholder {
 }
 
 .agreement a {
+
   color: var(--white);
 }
 .to-courses a {
+
   color: var(--blue);
 }
