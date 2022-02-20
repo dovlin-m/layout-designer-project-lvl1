@@ -11,7 +11,6 @@
   --blue: #1085c5;
 }
 
-
 @font-face {
   font-family: 'Neucha';
   src: url('../assets/fonts/Neucha/Neucha-Regular.ttf');
@@ -299,7 +298,7 @@ header {
 .section-img {
 
   width: 578px;
-  filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 16px 32px);
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 
   position: absolute;
 }
@@ -311,7 +310,7 @@ header {
   margin-left: 532px;
 
   width: 578px;
-  filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 16px 32px);
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .margin-left-608 {
@@ -509,7 +508,8 @@ input[type=email]::placeholder {
 
   color: var(--white);
 }
-.to-courses a {
 
+.to-courses a {
   color: var(--blue);
+
 }
