@@ -327,7 +327,7 @@ header {
   color: var(--translucentDark);
 }
 
-.color-translucentDark {
+.color-translucent-dark {
 
   color: var(--translucentDark);
 }
@@ -407,7 +407,7 @@ header {
   color: var(--brown);
 }
 
-.color-translucentWhite {
+.color-translucent-white {
 
   color: var(--translucentWhite);
 }
